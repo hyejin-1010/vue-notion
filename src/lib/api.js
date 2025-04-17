@@ -5,5 +5,5 @@ export const getPageTable = async (
 
 export const getPageBlocks = async (
   pageId,
-  apiUrl = "ps://notion-cloudflare-worker.hyepago.workers.dev/v1"
+  apiUrl = "https://notion-cloudflare-worker.hyepago.workers.dev/v1"
 ) => await fetch(`${apiUrl}/page/${pageId}`).then((res) => res.json());

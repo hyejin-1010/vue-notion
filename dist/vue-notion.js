@@ -1049,7 +1049,7 @@ const Lo = /* @__PURE__ */ h(Po, [["render", Co]]), Ro = {
   NotionTextRenderer: N,
   NotionTodo: te,
   NotionToggle: oe
-}, Symbol.toStringTag, { value: "Module" })), Io = async (e, t = "https://notion-cloudflare-worker.hyepago.workers.dev/v1") => await fetch(`${t}/table/${e}`).then((s) => s.json()), So = async (e, t = "ps://notion-cloudflare-worker.hyepago.workers.dev/v1") => await fetch(`${t}/page/${e}`).then((s) => s.json()), Bo = {
+}, Symbol.toStringTag, { value: "Module" })), Io = async (e, t = "https://notion-cloudflare-worker.hyepago.workers.dev/v1") => await fetch(`${t}/table/${e}`).then((s) => s.json()), So = async (e, t = "https://notion-cloudflare-worker.hyepago.workers.dev/v1") => await fetch(`${t}/page/${e}`).then((s) => s.json()), Bo = {
   install: (e) => {
     Object.entries(Oo).forEach(([t, s]) => {
       e.component(t, s);
